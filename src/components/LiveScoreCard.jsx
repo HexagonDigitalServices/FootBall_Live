@@ -1,11 +1,3 @@
-import {
-  getMatchLeague,
-  getMatchStatus,
-  getMatchValue,
-  getTeamLogo,
-  scorePaths,
-} from '../services/footballApi';
-import { liveScoreCardStyles as s } from '../assets/dummyStyles';
 
 const teamPaths = {
   home: ['home.name', 'homeTeam.name', 'teams.home.name', 'homeTeam', 'home'],
